@@ -1,0 +1,101 @@
+#bg-hcptop {
+    background-color: #1a3667;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: solid 5px #F3E454;
+}
+
+.colorbg {
+    color: #1a3667;
+}
+
+.search-box {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.btn-search {
+    color: white;
+    background-color: #f3e454;
+    color: black;
+}
+
+.btn-signup {
+    color: white;
+}
+
+.background0 {
+    background-color: #1a3667;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 55px;
+}
+
+#button1 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1100px;
+    top: 95px; 
+    background-color: #F3E454;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#button2 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 1000px;
+    top: 100px; 
+    background-color: #1a3667;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white
+    
+}
+#button3 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 900px;
+    top: 100px; 
+    background-color: #1a3667;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+#button4 {
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 800px;
+    top: 100px; 
+    background-color: #1a3667;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}

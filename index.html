@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clinical Trials</title>
+</head>
+<body>
+    <div class="background0">
+        <img class="logo" src="B-INCLUDED-LT-BLUE.png" height="100" width="100">
+        <div id="button1">Join Us</div>
+        <div id="button2">Blog</div>
+        <div id="button3">Resources</div>
+        <div id="button4">Home</div>
+        
+    </div>
+    
+<div class="main">
+	
+    <div class="background hidden-sm hidden-xs" id="bg-nonhcp"></div>
+
+
+<div class="content container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            
+                <!-- <h1 class="colorbg">Find Clinical Trials.</h1> -->
+            
+        
+            
+            <div class="background" id="bg-hcptop">
+                
+                
+    <div class="container">
+        <div class="col-md-12 col-sm-11">
+            <div class="row">
+                <h2 class="search-box"><span style="font-size:1.4em;"><i class="fa fa-search"></i></span> Let us help you find the clinical trial you need.</h2>
+                
+                <form action="/clinical-trials/" method="post">
+                    <input type="hidden" name="form_redirect" value="true">
+                    <input name="actively_recruiting" type="hidden" value="Y">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-0 form-group"></div>
+                        
+                          <div class="col-md-3 col-sm-12 form-group text-left">
+                            <div class="easy-autocomplete eac-square" style="width: 575px;"><input type="text" class="form-control" id="srch_keywords" name="srch_keywords" placeholder="Enter a condition or keyword" value="" autocomplete="off"><div class="easy-autocomplete-container" id="eac-container-srch_keywords"><ul></ul></div></div>
+                          </div>
+                          
+                          <div class="col-md-2 col-sm-12 form-group">
+                            <input type="text" class="form-control" id="srch_zip" name="srch_zip" placeholder="Zip Code" value="35205">
+                        </div>
+                        
+                           <div class="col-md-2 col-sm-12 form-group">
+                            <select class="form-control" id="srch_radius" name="srch_radius">
+                                  <option value="25">25 miles</option>
+                                  <option value="50">50 miles</option>
+                                  <option value="75">75 miles</option>
+                                  <option value="100">100 miles</option>
+                                  <option value="200">200 miles</option>
+                                  <option value="500">500 miles</option>
+                                  <option selected="selected" value="0">Nationwide</option>
+                            </select>
+                          </div>
+                          
+                          <div class="col-md-2 form-group">
+                            <select class="form-control" id="srch_phase" name="srch_phase">
+                                  <option value="">All Phases</option>
+                                  <option value="0">Phase 0</option>
+                                  <option value="1">Phase 1</option>
+                                  <option value="2">Phase 2</option>
+                                  <option value="3">Phase 3</option>
+                                  <option value="4">Phase 4</option>
+                            </select>
+                          </div>
+                          
+                          <div class="col-md-1 col-sm-12 form-group">
+                               <button type="submit" class="btn btn-search">Search</button> 
+                           </div>
+
+                           <div class="col-md-12 col-sm-12 form-group text-center">
+                               <a href="/search-conditions/" class="btn btn-signup">Browse <strong>Medical Condition</strong></a>
+                           </div>
+                       </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
